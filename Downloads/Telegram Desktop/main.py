@@ -41,6 +41,7 @@ def z4():
     print(sorted(kmand))
     if "Иванов" in kmand:
         print("Иванов есть в команде")
+        print(kmand.count("Иванов"))
     else:
         print("Иванова нет в команде")
 
